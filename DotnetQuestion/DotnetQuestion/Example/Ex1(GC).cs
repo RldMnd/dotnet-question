@@ -11,7 +11,7 @@ namespace DotnetQuestion.Example
         public static void Task1()
         {
             var sum = 0;
-            for (var i = 0; i <= 10; i++;){
+            for (var i = 0; i <= 10; i++){
                 var j = i * 2;
                 sum += i;
             }
