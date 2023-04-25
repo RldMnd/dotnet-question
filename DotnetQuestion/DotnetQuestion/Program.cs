@@ -13,8 +13,12 @@ clsB.Foo();
 //obj.Bar();
 
 //К примеру 5
-var ex5 = new Ex5();
-ex5.Foo();
-ex5.Foo();
-ex5.Bar();
-ex5.Bar();
+//var ex5 = new Ex5();
+//ex5.Foo();
+//ex5.Foo();
+//ex5.Bar();
+//ex5.Bar();
+
+var ex6 = new Ex6();
+ex6.First();
+ex6.Second();
