@@ -22,3 +22,4 @@ clsB.Foo();
 var ex6 = new Ex6();
 ex6.First();
 ex6.Second();
+ex6.Third();

@@ -45,5 +45,21 @@ namespace DotnetQuestion.Example
                 Console.WriteLine(ex.id);
             }
         }
+        public void Third()
+        {
+            try
+            {
+                var ex = new AnotgerEx { id = 2, name = "БУГОГА" };
+                throw (Exception)ex;
+            }
+            catch (AnotgerEx ex)
+            {
+                Console.WriteLine(ex.name);
+            }
+            catch (MyExcept ex)
+            {
+                Console.WriteLine(ex.id);
+            }
+        }
     }
 }
