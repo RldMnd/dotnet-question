@@ -19,7 +19,10 @@ clsB.Foo();
 //ex5.Bar();
 //ex5.Bar();
 
-var ex6 = new Ex6();
-ex6.First();
-ex6.Second();
-ex6.Third();
+//var ex6 = new Ex6();
+//ex6.First();
+//ex6.Second();
+//ex6.Third();
+
+var ex6a = new Ex6a();
+Console.WriteLine(ex6a.FOO());
