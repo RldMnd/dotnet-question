@@ -26,3 +26,6 @@ clsB.Foo();
 
 var ex6a = new Ex6a();
 Console.WriteLine(ex6a.FOO());
+
+var ex6b = new Ex6b();
+Console.WriteLine(ex6b.Foo().Text);
