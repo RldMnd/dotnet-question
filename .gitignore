@@ -6,3 +6,7 @@
 /DotnetQuestion/DotnetQuestion/obj
 /DotnetQuestion/.vs/DotnetQuestion/DesignTimeBuild
 /DotnetQuestion/DotnetQuestion/bin/Debug/net6.0
+/DotnetQuestion/.vs
+/DotnetQuestion/DockerExample/app
+/DotnetQuestion/DockerExample/bin
+/DotnetQuestion/DockerExample/obj

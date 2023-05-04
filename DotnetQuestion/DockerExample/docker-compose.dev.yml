@@ -1,0 +1,21 @@
+version: '3.5'
+ 
+services:
+  dock-ex:
+    container_name: dock-ex
+    build: .
+    ports:
+      - 6000:5000
+      - 6001:5001
+    volumes:
+      - ./app/logs:/app/logs
+      - ./app:/app
+    environment:
+      - TZ=Asia/Yekaterinburg
+      - DBHOST=db
+      - DBPORT=5432
+      - DBNAME=erp_data
+      - DBLOGIN=postgres
+      - DBPASS=yourPassword
+    restart: always
+    entrypoint: "dotnet DockerExample.dll"
